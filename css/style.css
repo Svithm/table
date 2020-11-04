@@ -1,0 +1,233 @@
+.wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+}
+.clear::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.table-name {
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #bfbfbf;
+    font-weight: bold;
+    font-family: "Arial";
+}
+.products-menu {
+    margin: 0;
+    padding-left: 0;
+    background-color: #2a3644;
+    text-align: justify;
+    font-size: 0;
+    border-radius: 3px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+.products-menu ul {
+    margin: 0;
+}
+.products-menu li {
+    position: relative;
+    list-style: none;
+}
+.products-menu>li{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+.products-menu::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+.products-menu>li>a {
+    padding: 18px 30px;
+    display: block;
+    text-decoration: none;
+    color:#fff;
+}
+.products-menu li:hover>a {
+    background-color: #3f4852;
+    color: #fd8612;
+    border-radius: 3px;
+}
+.products-menu li:hover .sub {
+    display: block;
+    border-radius: 3px;
+}
+.products-menu>li:last-child>.sub {
+    right: 0;
+}
+.sub, 
+.sub2 {
+    display: none;
+    padding-top: 10px;
+    position: absolute;
+    padding-left: 0;
+    width: 210px;
+    z-index: 1;
+}
+.sub ul{
+    padding-left: 0;
+    background-color: #d2d4d5;
+}
+.sub a{
+    display: block;
+    font-size: 15px;
+    padding: 16px 20px;
+    color: #2a3644;
+    text-decoration: none;
+    border-top: 1px solid #b9bdc1;
+}
+/*Навігація №2 */
+.table {
+    display: table;
+    width: 100%;
+}
+.table>ul {
+    display: table-row;
+}
+.table>ul>li {
+    display: table-cell;
+}
+.mar-bottom {
+    margin-bottom: 40px;
+}
+.sub2 {
+    padding-left: 10px;
+    left: 100%;
+    top: -10px;
+}
+.sub2 ul{
+    padding-left: 0;
+    background-color: #d2d4d5;
+}
+.sub li:hover .sub2 {
+    display: block;
+}
+.sub3 {
+    display: none;
+    position: absolute;
+    right: 100%;
+    top: 0;
+    padding-left: 0;
+    padding-right: 10px;
+    width: 210px;
+    z-index: 1;
+}
+.sub2 li:hover .sub3 {
+    display: block;
+}
+/*Навігація №3*/
+.nav3 {
+    margin-bottom: 40px;
+    background-color: #2a3644;
+    font-size: 0;
+}
+.nav3 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav3 li {
+    display: inline-block;
+}
+.products-menu3 {
+    float: left;
+}
+.products-menu3 a {
+    display: block;
+    padding: 14px 30px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Arial";
+    text-decoration: none;
+}
+a.home {
+    position: relative;
+    padding-left: 60px;
+}
+.home::before{
+    content: '';
+    position: absolute;
+    background: url(../img/home.png);
+    width: 16px;
+    height: 13px;
+    left: 30px;
+    top: 16px;
+}
+
+.products-menu3>li:hover>a {
+    color: #fd8612;
+    background-color: #3f4852;
+}
+.social {
+    float: right;
+}
+.social li {
+    padding: 15px 15px;
+}
+.social a {
+    display: block;
+    background: url(../img/sprite.png) no-repeat left top;
+    
+}
+.social .fb {
+    width: 10px;
+    height: 19px;
+    background-position: 0 -20px;
+    right: 20px;
+}
+.social .fb:hover {
+    width: 10px;
+    height: 19px;
+    background-position: 0 0;
+}
+.social .tw {
+    width: 19px;
+    height: 17px;
+    background-position: -30px -20px;
+}
+.social .tw:hover {
+    width: 19px;
+    height: 17px;
+    background-position: -30px 0;
+}
+.social .ins {
+    width: 19px;
+    height: 19px;
+    background-position: -10px -20px;
+}
+.social .ins:hover {
+    width: 19px;
+    height: 19px;
+    background-position: -10px 0;
+}
+.table2 {
+    width: 100%;
+    border-collapse: collapse;
+}
+.thead {
+    background-color: #2a3644;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Arial";
+} 
+.thead tr:first-child th:first-child {
+    width: 6.4%;
+    padding: 0;
+}
+
+th, td {
+    padding: 18px 18px;
+    border: 1px solid #3f4852;
+}
+.tbody {
+    font-size: 16px;
+    color: #2a3644;
+    font-family: "Arial";
+}
