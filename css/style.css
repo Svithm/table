@@ -146,6 +146,13 @@
     font-family: "Arial";
     text-decoration: none;
 }
+.products-menu3>li:hover>a {
+    color: #fd8612;
+    background-color: #3f4852;
+}
+.products-menu3 li:hover .nav3-sub {
+    display: block;
+}
 a.home {
     position: relative;
     padding-left: 60px;
@@ -159,8 +166,27 @@ a.home {
     left: 30px;
     top: 16px;
 }
-
-.products-menu3>li:hover>a {
+.nav3-sub {
+    display: none;
+    padding-top: 10px;
+    position: absolute;
+    padding-left: 0;
+    width: 210px;
+    z-index: 1;
+}
+.nav3-sub ul {
+    padding-left: 0;
+    background-color: #d2d4d5;
+}
+.nav3-sub a {
+    display: block;
+    font-size: 15px;
+    padding: 16px 20px;
+    color: #2a3644;
+    text-decoration: none;
+    border-top: 1px solid #b9bdc1;
+}
+.nav3-sub li:hover a{
     color: #fd8612;
     background-color: #3f4852;
 }
@@ -173,7 +199,6 @@ a.home {
 .social a {
     display: block;
     background: url(../img/sprite.png) no-repeat left top;
-    
 }
 .social .fb {
     width: 10px;
@@ -206,6 +231,7 @@ a.home {
     height: 19px;
     background-position: -10px 0;
 }
+/*таблиця */
 .table2 {
     width: 100%;
     border-collapse: collapse;
@@ -221,7 +247,6 @@ a.home {
     width: 6.4%;
     padding: 0;
 }
-
 th, td {
     padding: 18px 18px;
     border: 1px solid #3f4852;
