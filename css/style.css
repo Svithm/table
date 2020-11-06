@@ -21,7 +21,6 @@
     background-color: #2a3644;
     text-align: justify;
     font-size: 0;
-    border-radius: 3px;
     margin-bottom: 40px;
     width: 100%;
 }
@@ -52,11 +51,9 @@
 .products-menu li:hover>a {
     background-color: #3f4852;
     color: #fd8612;
-    border-radius: 3px;
 }
 .products-menu li:hover .sub {
     display: block;
-    border-radius: 3px;
 }
 .products-menu>li:last-child>.sub {
     right: 0;
@@ -64,7 +61,7 @@
 .sub, 
 .sub2 {
     display: none;
-    padding-top: 10px;
+    padding-top: 5px;
     position: absolute;
     padding-left: 0;
     width: 210px;
@@ -86,6 +83,9 @@
 
 .mar-bottom {
     margin-bottom: 40px;
+}
+.mar-bottom>ul {
+    border-radius: 3px;
 }
 .sub2 {
     padding-left: 10px;
@@ -131,7 +131,7 @@
 }
 .products-menu3 a {
     display: block;
-    padding: 14px 30px;
+    padding: 18px 30px;
     font-size: 16px;
     color: #fff;
     font-weight: bold;
@@ -156,11 +156,11 @@ a.home {
     width: 16px;
     height: 13px;
     left: 30px;
-    top: 16px;
+    top: 20px;
 }
 .nav3-sub {
     display: none;
-    padding-top: 10px;
+    padding-top: 5px;
     position: absolute;
     padding-left: 0;
     width: 210px;
@@ -169,6 +169,9 @@ a.home {
 .nav3-sub ul {
     padding-left: 0;
     background-color: #d2d4d5;
+}
+.nav3-sub li {
+    display: block;
 }
 .nav3-sub a {
     display: block;
@@ -186,7 +189,7 @@ a.home {
     float: right;
 }
 .social li {
-    padding: 15px 15px;
+    padding: 16px 14px;
 }
 .social a {
     display: block;
@@ -228,6 +231,8 @@ a.home {
     margin-bottom: 50px;
     width: 100%;
     border-collapse: collapse;
+    border-radius: 3px;
+    overflow: hidden;
 }
 .thead {
     background-color: #2a3644;
@@ -258,6 +263,9 @@ a.home {
     border-left: none;
     border-bottom: none;
 }
+.tbody td:first-child {
+    text-align: center;
+}
 .tbody tr:nth-child(odd) {
     background-color: #f2f2f2;
 }
@@ -269,6 +277,12 @@ a.home {
 }
 .tbody td:last-child {
     border-right: none;
+}
+.tbody tr:last-child td:first-child {
+    border-radius: 0 0 0 3px;
+}
+.tbody tr:last-child td:last-child {
+    border-radius: 0 0 3px 0;
 }
 .tbody td:nth-child(3) {
     text-align: right;
@@ -293,6 +307,9 @@ a.home {
     padding: 18px;
     font-size: 16px;
     font-family: "Arial";
+}
+.table3 li:first-child {
+    text-align: center;
 }
 .table3 ul:first-child li {
     background-color: #2a3644;
