@@ -47,6 +47,11 @@
     display: block;
     text-decoration: none;
     color:#fff;
+    border-right: 1px solid #3f4852;
+    text-align: center;
+}
+.products-menu li:last-child a{
+    border-right: none;
 }
 .products-menu li:hover>a {
     background-color: #3f4852;
@@ -79,6 +84,11 @@
     text-decoration: none;
     border-top: 1px solid #b9bdc1;
 }
+.sub,
+.sub2,
+.sub3 li:first-child {
+    border-top: none;
+}
 /*Навігація №2 */
 
 .mar-bottom {
@@ -87,8 +97,18 @@
 .mar-bottom>ul {
     border-radius: 3px;
 }
+.table {
+    display: table;
+    width: 100%;
+}
+.table>ul {
+    display: table-row;
+}
+.table>ul>li {
+    display: table-cell;
+}
 .sub2 {
-    padding-left: 10px;
+    padding-left: 5px;
     left: 100%;
     top: -10px;
 }
@@ -105,7 +125,7 @@
     right: 100%;
     top: 0;
     padding-left: 0;
-    padding-right: 10px;
+    padding-right: 5px;
     width: 210px;
     z-index: 1;
 }
@@ -137,6 +157,7 @@
     font-weight: bold;
     font-family: "Arial";
     text-decoration: none;
+    border-right: 1px solid #3f4852;
 }
 .products-menu3>li:hover>a {
     color: #fd8612;
