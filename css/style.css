@@ -52,6 +52,7 @@
 }
 .products-menu li:last-child a{
     border-right: none;
+    border-bottom: none;
 }
 .products-menu li:hover>a {
     background-color: #3f4852;
@@ -82,12 +83,10 @@
     padding: 16px 20px;
     color: #2a3644;
     text-decoration: none;
-    border-top: 1px solid #b9bdc1;
+    border-bottom: 1px solid #b9bdc1;
 }
-.sub,
-.sub2,
-.sub3 li:first-child {
-    border-top: none;
+.sub li:last-child {
+    border-bottom: none;
 }
 /*Навігація №2 */
 
@@ -166,6 +165,12 @@
 .products-menu3 li:hover .nav3-sub {
     display: block;
 }
+.nav3-sub a {
+    border-right: none;
+}
+.nav3-sub li:last-child a {
+    border-bottom: none;
+}
 a.home {
     position: relative;
     padding-left: 60px;
@@ -200,7 +205,7 @@ a.home {
     padding: 16px 20px;
     color: #2a3644;
     text-decoration: none;
-    border-top: 1px solid #b9bdc1;
+    border-bottom: 1px solid #b9bdc1;
 }
 .nav3-sub li:hover a{
     color: #fd8612;
