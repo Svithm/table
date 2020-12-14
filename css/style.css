@@ -17,12 +17,13 @@
 }
 .products-menu {
     margin: 0;
-    padding-left: 0;
-    background-color: #2a3644;
-    text-align: justify;
-    font-size: 0;
     margin-bottom: 40px;
+    padding-left: 0;
     width: 100%;
+    font-size: 0;
+    text-align: justify;
+    background-color: #2a3644;
+    border-radius: 3px;
 }
 .products-menu ul {
     margin: 0;
@@ -57,6 +58,7 @@
 .products-menu li:hover>a {
     background-color: #3f4852;
     color: #fd8612;
+    border-radius: 3px;
 }
 .products-menu li:hover .sub {
     display: block;
