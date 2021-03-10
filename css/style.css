@@ -51,20 +51,26 @@
     border-right: 1px solid #3f4852;
     text-align: center;
 }
-.products-menu li:last-child a{
+.products-menu li:first-child>a {
+    border-radius: 3px 0  0 3px;
+}
+.products-menu li:last-child>a{
     border-right: none;
     border-bottom: none;
+    border-radius: 0 3px 3px 0;
 }
 .products-menu li:hover>a {
     background-color: #3f4852;
     color: #fd8612;
-    border-radius: 3px;
 }
 .products-menu li:hover .sub {
     display: block;
 }
 .products-menu>li:last-child>.sub {
     right: 0;
+}
+.border-l {
+    border-left: 1px solid #3f4852;
 }
 .sub, 
 .sub2 {
@@ -75,9 +81,23 @@
     width: 210px;
     z-index: 1;
 }
-.sub ul{
+.sub ul,
+.nav3-sub ul {
     padding-left: 0;
     background-color: #d2d4d5;
+    border-radius: 3px;
+}
+.sub ul li:first-child>a:hover,
+.sub2 ul li:first-child>a:hover,
+.sub3 ul li:first-child>a:hover,
+.nav3-sub ul li:first-child>a:hover {
+    border-radius: 3px 3px 0 0;
+}
+.sub ul li:last-child:hover > a,
+.sub2 ul li:last-child:hover > a,
+.sub3 ul li:last-child:hover > a,
+.nav3-sub ul li:last-child>a:hover {
+    border-radius: 0 0 3px 3px;
 }
 .sub a{
     display: block;
@@ -95,7 +115,7 @@
 .mar-bottom {
     margin-bottom: 40px;
 }
-.mar-bottom>ul {
+.mar-bottom a {
     border-radius: 3px;
 }
 .table {
@@ -117,7 +137,8 @@
     padding-left: 0;
     background-color: #d2d4d5;
 }
-.sub li:hover .sub2 {
+.sub li:hover .sub2,
+.nav3-sub li:hover .sub2 {
     display: block;
 }
 .sub3 {
@@ -193,6 +214,12 @@ a.home {
     padding-left: 0;
     width: 210px;
     z-index: 1;
+}
+.nav3-sub .sub2 {
+    top: 0;
+    padding-left: 0;
+    background-color: #3f4852;
+
 }
 .nav3-sub ul {
     padding-left: 0;
